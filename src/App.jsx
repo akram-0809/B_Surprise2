@@ -22,7 +22,7 @@ const DUA_BUBBLES = [
   'May Allah place barakah in the life you are building.', 'May your smile stay soft, even on the difficult days.',
   'May your rizq be wide, pure, and full of ease.', 'May you always feel held by mercy. Ameen.',
 ];
-const PUZZLE_IMAGE = '/puzzle.jpg';
+const PUZZLE_IMAGE = `${import.meta.env.BASE_URL}puzzle.jpg`;
 const MEMORY_SYMBOLS = ['☾', '✦', '♡', '✿'];
 const REASONS = [
   ['🌸', 'Your sincere heart', 'Your pure heart and unwavering faith bring light to everyone around you. May Allah protect your soul from every sorrow.'],
